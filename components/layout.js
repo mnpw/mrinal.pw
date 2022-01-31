@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
             <header className={styles.header}>
                 <Link href="/"><span className={styles.home}>■</span></Link>
                 <span>
-                    <Link href="/posts/" ><a className={styles.navbar}>Posts</a></Link>
+                    <Link href="/notes/" ><a className={styles.navbar}>Notes</a></Link>
                     <Link href="https://www.twitter.com/_mnpw"><a className={styles.navbar}>Twitter</a></Link>
                 </span>
             </header>
