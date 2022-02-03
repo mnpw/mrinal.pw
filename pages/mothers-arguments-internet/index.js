@@ -1,9 +1,10 @@
 import Layout from "../../components/layout"
+import utilStyles from '../../styles/utils.module.css'
 
 export default function Posts() {
     return (
         <Layout>
-            <h2>Mothers, conflicts, and the internet</h2>
+            <h2 className={utilStyles.headingXl}>Mothers, conflicts, and the internet</h2>
             <p>I often get into an argument with my mom. It goes like this — She asks me to do something. I challenge her ask. She feels I'm ignoring her helpful advice. I point to web search and claim that she is wrong. She asks if I trust the internet more than her. I say she is missing the point. She feels bad. I feel bad.</p>
             <p>We don't talk for ten minutes. Then we pretend like the argument never happened. We repeat this maneuver every nine days.</p>
             <p>~</p>

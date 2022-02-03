@@ -50,3 +50,12 @@
 .lightText {
     color: #666;
 }
+
+.labelText {
+    font-size: 0.75rem;
+    color: rgb(80, 80, 80);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    margin: 0.5rem;
+    padding: 0.1rem 0.2rem;
+}
