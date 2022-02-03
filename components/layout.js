@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
+import Image from 'next/image'
+import logo from '../public/website_logo.svg'
 
 const name = 'Mrinal Paliwal'
 export const siteTitle = 'mnpw\'s garden'
@@ -18,7 +20,9 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
             </Head>
             <header className={styles.header}>
-                <Link href="/"><span className={styles.home}>■</span></Link>
+                <Link href="/">
+                    <Image className={styles.logo} src={logo} height={26} width={85} />
+                </Link>
                 <span>
                     <Link href="/now/" ><a className={styles.navbar}>Now</a></Link>
                     <span className={styles.disc}> •</span>
