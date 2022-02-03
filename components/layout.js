@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.css'
 import Link from 'next/link'
+import utilStyles from '../styles/utils.module.css'
 
 const name = 'Mrinal Paliwal'
 export const siteTitle = 'mnpw\'s garden'
@@ -19,7 +20,10 @@ export default function Layout({ children, home }) {
             <header className={styles.header}>
                 <Link href="/"><span className={styles.home}>■</span></Link>
                 <span>
+                    <Link href="/now/" ><a className={styles.navbar}>Now</a></Link>
+                    <span className={styles.disc}> •</span>
                     <Link href="/notes/" ><a className={styles.navbar}>Notes</a></Link>
+                    <span className={styles.disc}> •</span>
                     <Link href="https://www.twitter.com/_mnpw"><a className={styles.navbar}>Twitter</a></Link>
                 </span>
             </header>
