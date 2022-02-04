@@ -33,5 +33,55 @@
 }
 
 .logo {
-    opacity: 90%;
+    position: relative;
+}
+
+.logo_hover {
+    /* transition: 5s ease; */
+    opacity: 0%;
+    /* left: 0; */
+}
+
+.logo_base {
+    opacity: 100%;
+    left: 0;
+    position: absolute;
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        position: relative;
+    }
+
+    .logo .logo_base {
+        transition: 2s ease-in;
+        opacity: 100%;
+        left: 0;
+        position: absolute;
+    }
+
+    .logo .logo_hover {
+        transition: 2s ease-in;
+        opacity: 0%;
+        left: 0;
+    }
+
+    .logo:hover .logo_base {
+        transition: 1s ease-in-out 2s;
+        opacity: 0%;
+    }
+
+    .logo:hover .logo_hover {
+        transition: 1s ease-in-out 2s;
+        opacity: 69%;
+    }
+
+    /* .logo_base:hover {
+        transition: opacity 1s ease-in-out;
+        opacity: 0%;
+        background-image: url("../public/website_logo.svg");
+        max-height: 34px;
+        max-width: 100%;
+    } */
+
 }
