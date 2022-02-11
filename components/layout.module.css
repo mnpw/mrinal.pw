@@ -67,12 +67,12 @@
     }
 
     .logo:hover .logo_base {
-        transition: 1s ease-in-out 2s;
+        transition: 0.5s ease-in-out 1.0s;
         opacity: 0%;
     }
 
     .logo:hover .logo_hover {
-        transition: 1s ease-in-out 2s;
+        transition: 0.5s ease-in-out 1.0s;
         opacity: 69%;
     }
 
