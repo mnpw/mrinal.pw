@@ -32,3 +32,23 @@ img {
 p {
   margin: 0.8rem 0;
 }
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: rgb(243, 243, 243);
+  color: #6a6a6a;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}

@@ -1,0 +1,34 @@
+import Layout from "../../components/layout"
+import Link from 'next/link'
+import utilStyles from '../../styles/utils.module.css'
+
+export default function Posts() {
+    return (
+        <Layout>
+            <h2 className={utilStyles.headingXl}>Words are sacred</h2>
+            <p>I remember slight apprehension, and feeling quite dumb, about picking up a children's book. I needed something simple. A sweet and short story that my sleeping brain could comprehend. Something that was short enough for me to quickly finish before the guilt accumulated by watching multiple 'How I read 100 books in a year' videos grew heavier. I picked up Neil Gaiman's Coraline.</p>
+            <p>There is a section titled 'Why I wrote Coraline' in a particular edition of the book. In the closing line of that section, Gaiman writes, <em>"It's the strangest book I've written, it took the longest time to write, and it's the book I'm proudest of"</em>. It shows. Every sentence sits firmly, with a simplicity and an intent. The adventure made me chuckle at times and at times it made me hold my breath in terror. Gaiman's description of the feline creature was unexpectedly vivid. It is not possible to write with this brilliance without a firm grasp on the finest details. The writing reflects the hold of a piercing attention.</p>
+            <p>I finished reading the book sometime ago.</p>
+            <p>~</p>
+            <p>I wonder what the earliest cave paintings were for. Drawing on stone walls does not seem to be in line with the animal survival instinct. A bit too cultured, a little less wild. The energy spent etching shapes could have been very well used to hunt more and build shelter. The cave paintings grew into words in an unknown time. I'm not sure about words either.</p>
+            <p>What are words for?</p>
+            <p>Stories have always had a special place in the human heart, I know that. There is a story at the core of everything humans create. Tales sway lives and build new ones. A good story can start a war. A better story can end one. It is more than just a sequence of events; a story builds new worlds. Perhaps it is the only way to build new worlds</p>
+            <p>Months of labor amount to nothing if not enriched with attention. It is the chief ingredient to any creation.  And creation is the act of attending. Every story and every new world the story creates functions on the fuel of attention.</p>
+            <p>You need more than just the attention of the creator to build a new world. Building something alone is a hollow concept. You need an existence separate. A creator can build a new world only with a witness. The attention of the witness is also required.  A story is birthed in the attention of the creator. But it is the attention of the witness that fosters it.</p>
+            <p>Perhaps the first words came about to tell stories. As a way to ask for the attention of the other. Cave paintings, words and all the symbols ever built were built to hold attention. Symbols are sacred. They are the vessel for attention. Some vessels are more porous than others.</p>
+            <p>~</p>
+            <p>Buying a meal and preparing a meal are two very different things. The humans possessing the wisdom of cooking would know. The need to pay attention does not survive when things are just explicitly handed over. Words are special from other symbols in that way. They force the reader to recreate.</p>
+            <p>I think people who re-read do so to take part in a special act of creation. The mechanics of the story are not so relevant to them. The beginning, the middle and the end are known by the first read. The words don't change with the fifth reading but the worlds built from them do. The mechanics of woodworking don't really change with every spoon that is made. They are known. People who create with wood would do it again and again not to discover the mechanics. You don't read a prayer hoping it'd change. You just pray. You do it to get deeply lost in the act of creation.</p>
+            <p>You must create several times before the creation opens up to you.</p>
+            <p>Books hide the recipes to build worlds in them. Fiction does a better job at that than most. The author indirectly, and gently, guides you into the creation. A single reading of a recipe would never give the richest result. It takes multiple tries and lots of improvisation. The author can add flavor even to the parts you know very well how to create. I've seen a cat before but I've never seen a cat from Gaiman's world.</p>
+            <p>To write something is to guide someone into an act of creation. It is an intimate act. People who write stories are important people. They understand the spells that put worlds into words better than anyone else. They make words sacred.</p>
+            <p>~</p>
+            <p>The words 'weak', 'little' and 'child' are often used interchangeably. Children are not really <em>children</em> — small and incapable of significance — when you hold a firm grasp on the finest details. Coraline is a story of a little girl who is anything but weak.</p>
+            <p>It amuses me to think how it would have been like for Neil Gaiman to write from a point of view of a child.</p>
+            <p>Most of my world was created when I was a child. That was my full time job, to construct a world. Creation is tied to being a child that way. The capacity to construct is left in childhood. Children as master creators.  Children grow very fast. In two hundred pages they grow even faster. The characters of a book carry you along in their growth. The main character is not the same at the start and at the end of the book. You too are not the same when you start the book and finish the book. With age you forget how to make worlds from words. You know everything already — everything there is to know. The act of creating a world becomes harder with the handicap of adulthood. With a main character as a child and the reader as an adult you can experience something that you knew once but have now forgotten. A book with a child main character puts you right at that moment.</p>
+            <p>There is another section in the book. It is titled 'Questions and Answers about Coraline'. One question asks about magic <em>"Are things really magical, or do you make them magical by believing in them?"</em>. Gaiman answers, <em>"I think most things are pretty magical, and it's less a matter of belief than it is one of just stopping to notice"</em>.</p>
+            <p>I'm not sure what children's literature exactly means, but I think it's my favorite genre now. I'm glad I read Coraline before I went to sleep. A lot of the world is built under dreams. I would come back to this book again.</p>
+            <p>~</p>
+        </Layout>
+    )
+}
