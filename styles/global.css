@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
 html,
 body {
   padding: 0;
@@ -20,6 +28,12 @@ a {
   text-decoration: none;
 }
 
+
+
+a:hover::before {
+  height: 100%;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -34,21 +48,56 @@ p {
 }
 
 blockquote {
-  margin: 0;
+  margin: 1rem 0px;
+  padding: 15px;
+  background: rgb(243, 243, 243);
+  color: #747474;
+  border-radius: 5px;
 }
 
 blockquote p {
-  padding: 15px;
-  background: rgb(243, 243, 243);
-  color: #6a6a6a;
+  margin: 0;
+  padding: 7px;
+}
+
+blockquote div.body {
+  color: rgb(80, 80, 80);
   border-radius: 5px;
-  font-style: italic;
+  background-color: rgb(232, 232, 232);
+  margin: 0.3rem;
+  padding: 0.7rem 0.7rem;
 }
 
-blockquote p::before {
-  content: '\201C';
+
+blockquote p.ref {
+  font-weight: 500;
 }
 
-blockquote p::after {
-  content: '\201D';
+@media (min-width: 1200px) {
+  blockquote a {
+    color: #747474;
+  }
+
+  blockquote p.ref a::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background: rgba(0, 112, 243, 0.180);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+  }
+
+  blockquote p.ref a:hover::after {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  blockquote p.ref a {
+    font-weight: 400;
+  }
 }
