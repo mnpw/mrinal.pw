@@ -8,6 +8,9 @@ export default function Posts() {
             <h2 className={utilStyles.headingXl}>Notes</h2>
             <ul className={utilStyles.list}>
                 <li className={utilStyles.listItem}>
+                    <Link href="/pushing-against-reality/" ><a>Pushing against reality</a></Link>
+                </li>
+                <li className={utilStyles.listItem}>
                     <Link href="/words-are-sacred/" ><a>Words are sacred</a></Link>
                 </li>
                 <li className={utilStyles.listItem}>
