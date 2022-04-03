@@ -16,17 +16,17 @@ export default function Posts() {
                 </div>
                 <p className="ref">— Steven Brust, The Paths of the Dead</p>
             </blockquote>
-            <p>"For sunrise summit we must leave the camp by 2 am." </p>
+            <p>"To see the sunrise on summit we must leave the camp by 2 am." </p>
             <p>We left the camp by 3:30 am. Some parts within me had begun with the acceptance process. The sooner you accept the reality of failure the easier it would be, they told me. Other parts could picture only one thing — a summit with the sunrise.</p>
-            <p>I rushed ahead of the pack without thinking much, like a madman. Toes throbbing with pain, a possibly torn hip flexor and the barely functioning rest of me found a group of people from a different camp. This group was ahead of all the other groups. They had left their camp by 2 am.</p>
+            <p>I rushed ahead of the pack without thinking much, like a madman. Toes throbbing with pain, a possibly torn hip flexor and the barely functioning rest of me soon found a group of people from a different camp. This group was ahead of all the other groups. They had left their camp by 2 am.</p>
             <blockquote>
                 <div className="body">
                     <p>How do you claim to know it is impossible? To believe that something is impossible is to mistake "No one sees how it is possible" for "It is impossible". As the years have gone by, I've been increasingly struck by just how stupid humans are, and how most of our intelligence is just the painfully slow accumulation of the cultural store of better concepts. Once you keep in mind how humans have been wrong forever about most things, the fact that everyone claims that something is impossible loses its misperceived predictive force.</p>
                 </div>
                 <p className="ref">— <Link href="https://www.lesswrong.com/s/3szfzHZr7EYGSWt92/p/fpecAJLG9czABgCe9?commentId=kgxEsw5kGJZBoLSBo"><a target="_blank" rel="noopener">buybuydandavis</a></Link></p>
             </blockquote>
-            <p>It made no rational sense to put myself through this pain. I kept climbing up for three hours. At 6:20 am it dawned upon me that there is nothing left for me to climb. It took a while for my body to realise this, so I ambled around in awe of the human capability, with a shattered concept of reality. The domain of possibilities had expanded faster than I could make any sense of it.</p>
-            <p>I was not supposed to see the sunrise on the summit but I did.</p>
+            <p>It made no rational sense to put myself through this pain. I kept climbing up for three hours. At 6:20 am it dawned upon me that there is nothing more left to climb. It took a while for my body to realise this, so I ambled around in awe of the human capability, with a shattered concept of reality. The domain of possibilities had expanded faster than I could make any sense of it.</p>
+            <p>I was not supposed to see the sunrise on the summit, but I did.</p>
             <blockquote>
                 <div className="body">
                     <p>Even though <em>individual</em> problems in AI have seemed to become less intimidating over time, the total mountain-to-be-climbed has increased in height—just like conventional wisdom says is supposed to happen—as problems got taken off the "impossible" list and put on the "to do" list.</p>
@@ -41,7 +41,8 @@ export default function Posts() {
 
             <h3 className={utilStyles.headingLg}>II.</h3>
             <p>"Do or do not, there is no try" — what does it <em>really</em> mean? Why would Yoda say that? Why would I not try? That is all I <em>can</em> do.  What is it that Neo heard in "Come on! Stop trying to hit me, and hit me!" that I cannot?</p>
-            <p>I can see one thing very clearly about the night of summit push now, as I piece together my life's inflection points. I was willing to be immodest — either I pass out in the way or I make it to the top of the mountain before sunrise. Trying would permit me to get away with "I did my <em>job</em>, I made an <em>attempt</em>, I did what I <em>could</em> do". But I was doing this for myself. Trying is not sufficient. The only way I can have any shot at winning is if I push hard against reality.  I don't have to be modest about how much I want something.</p>
+            <p>I can see one thing very clearly about the night of summit push now, as I piece together my life's inflection points. I was willing to be immodest — either I pass out in the way or I make it to the top of the mountain before sunrise. Trying would permit me to get away with "I did my <em>job</em>, I made an <em>attempt</em>, I did what I <em>could</em> do". But I was doing this for myself. Trying is not sufficient. The only way I can have any shot at winning is if I push hard against reality.</p>
+            <p>I realised that I don't have to be modest about how much I want something.</p>
             <blockquote>
                 <div className="body">
                     <p>To me, trying feels like pushing hard against my own resistance. Doing feels like pushing hard <em>against reality.</em></p>
@@ -50,7 +51,7 @@ export default function Posts() {
                 <p className="ref">— alkjash, <Link href="https://www.lesswrong.com/posts/vpvKEj7shuk8h5Eet/hammertime-day-2-yoda-timers"><a target="_blank" rel="noopener">Hammertime Day 2: Yoda Timers</a></Link></p>
             </blockquote>
             <p>It would be foolish to publicly announce that you will break a concrete wall with a punch — knowing very well that you <em>almost certainly</em> cannot. Pushing against reality can feel like punching a concrete wall.</p>
-            <p>I attribute much of modesty as a response to the pain of failure. Modesty feels like a defence mechanism. Being modest about your intentions shelters you from the weight of expectations. There is no obligation to give it your all with "I might try this". "I will do this" can almost feel like a slur.</p>
+            <p>I attribute much of modesty as a response to the pain of failure. Modesty feels like a defence mechanism. Being modest about your intentions shelters you from the weight of expectations. There is no obligation to give it your all with "I might try this". And "I will do this" feels like an slur of audacity.</p>
             <blockquote>
                 <div className="body">
                     <p>1. You will be punished for trying new things.</p>
@@ -60,8 +61,8 @@ export default function Posts() {
                 </div>
                 <p className="ref">— David R. MacIver, <Link href="https://notebook.drmaciver.com/posts/2020-02-29-10:30.html"><a target="_blank" rel="noopener">The social obligation to be bad at things</a></Link></p>
             </blockquote>
-            <p>In the hands of a self proclaimed rationalist, modesty becomes a weapon of self destruction. Rationalisations can be created as and when needed. They can conceal the laziness, and disguise it as modesty. All <em>tries</em> can be justified with a bit of cleverness.</p>
-            <p>Modesty doesn't help. It may seem like it is helping, but it doesn't. Inaction may seem like the best survival strategy but it is not. My experience tells me that modesty has aged into futility. I think we need more immodesty.</p>
+            <p>In the hands of a self proclaimed rationalist, modesty can become a weapon of self destruction. Rationalisations can be created as and when needed. They can conceal the laziness, and disguise it as modesty. All <em>tries</em> can be justified with a bit of cleverness.</p>
+            <p>Modesty doesn't help. It may seem like it is protecting you, but it doesn't. Inaction may seem like the best survival strategy, but it is not. My experience tells me that modesty has aged into futility. We need more immodesty.</p>
             <blockquote>
                 <div className="body">
                     <p>… So before I left, I told all my friends that when I come back, that book was going to be done! Yes, I would have it done - I’d have been ashamed to come back without it! I used my ego to make myself behave the way I wanted to. I bragged about something so I’d have to perform. I found out many times, like a cornered rat in a real trap, I was surprisingly capable. I have found that it paid to say, “Oh yes, I’ll get the answer for you Tuesday,” not having any idea how to do it. By Sunday night I was really hard thinking on how I was going to deliver by Tuesday. I often put my pride on the line and sometimes I failed, but as I said, like a cornered rat I’m surprised how often I did a good job. I think you need to learn to use yourself. I think you need to know how to convert a situation from one view to another which would increase the chance of success.</p>
@@ -78,7 +79,7 @@ export default function Posts() {
                 </div>
                 <p className="ref">— Frederic Friedel, <Link href="https://en.chessbase.com/post/a-history-of-cheating-in-chess-4"><a target="_blank" rel="noopener">A history of cheating in chess (4)</a></Link></p>
             </blockquote>
-            <p>I would have given up if I had not found that group of climbers rushing ahead of everyone else. It felt that they were climbing a completely different mountain. That is all it took — a hint of a different possibility. The courage to be immodest was passed to me by the people marching ahead. They showed me that something real exists beyond my concept of reality.</p>
+            <p>I would have given up if I had not found that group of climbers rushing ahead of everyone else. They were climbing a completely different mountain. That is all it took — a hint of a different possibility. The courage to be immodest was passed onto me by the people marching ahead. They showed me that something real exists beyond my concept of reality.</p>
             <blockquote>
                 <div className="body">
                     <p>One of my favorite Kaggle facts: after a long leaderboard stagnation period for a competition, seeing one team make a sudden breakthrough will often cause multiple independent teams to quickly reproduce the same breakthrough -- with no knowledge of how the first team did it.</p>
@@ -94,7 +95,7 @@ export default function Posts() {
                 <p className="ref">— Jessica Watson Miller, <Link href="https://autotranslucence.wordpress.com/"><a target="_blank" rel="noopener">Becoming a magician</a></Link></p>
             </blockquote>
             <p>
-                I'm here to tell you that I accept your immodesty. Your honest, fullest attempt matters more than the outcome. I will not punish you for failing. I give you the permission to <strike>try</strike> do, for what it's worth.
+                I'm here to tell you that I accept your immodesty. Your honest, fullest attempt matters to me more than the outcome. I will not punish you for failing. I give you the permission to <strike>try</strike> do, for what it's worth.
             </p>
             <blockquote>
                 <div className="body">
