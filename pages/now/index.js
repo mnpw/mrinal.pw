@@ -39,10 +39,10 @@ export default function Posts() {
                     🏡 living in Dharamkot, India
                 </li>
                 <li className={utilStyles.listItem}>📝 finished writing an <Link href="/pushing-against-reality/"><a target="_blank" rel="noopener">essay</a></Link> </li>
-                <li className={utilStyles.listItem}>🦀 learning rust, going through the rust book, worked on <Link href="https://github.com/mnpw/hashmap-rs"><a target="_blank" rel="noopener">hashmap-rs</a></Link> and working <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">webserver-rs</a></Link>
+                <li className={utilStyles.listItem}>🦀 learning rust, going through the rust book, worked on <Link href="https://github.com/mnpw/hashmap-rs"><a target="_blank" rel="noopener">hashmap-rs</a></Link> and working on <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">webserver-rs</a></Link>
                 </li>
                 <li className={utilStyles.listItem}>📖 got into reading, currently reading The Silent Patient</li>
-                <li className={utilStyles.listItem}>🔮 thinking about how to play long term games, compaction and crystallization</li>
+                <li className={utilStyles.listItem}>🔮 thinking about the role of compaction in long games, practicing crystallization</li>
                 <li className={utilStyles.listItem}><div>🧰 applying to jobs!&nbsp;
                     <Link href="https://twitter.com/messages/compose?recipient_id=3446109433&text=hey">
                         <a className="twitter-dm-button" data-screen-name="@_mnpw" target="_blank" rel="noopener">
@@ -63,7 +63,7 @@ export default function Posts() {
                     }
                     me if you think we should work together</div>
                 </li>
-                <li className={utilStyles.listItem}>🧗 planning another impossible trek and preparing my body for it</li>
+                <li className={utilStyles.listItem}>🧗 preparing my body for the impending war (read: for trekking mountains)</li>
                 <li className={utilStyles.listItem}>
                     💛 some important things i recently consumed:
                     <ul>
