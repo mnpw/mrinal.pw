@@ -28,6 +28,15 @@ a {
   text-decoration: none;
 }
 
+ul ul {
+  position: relative;
+  margin: 0;
+  padding-left: 1.75rem; 
+}
+
+ul ul li {
+  margin-top: 0.8rem;
+}
 
 
 a:hover::before {
