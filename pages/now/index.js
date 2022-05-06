@@ -3,6 +3,8 @@ import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
 import { useState } from "react";
 import Clipboard from 'react-clipboard.js';
+import styles from '../../components/layout.module.css'
+
 
 export default function Posts() {
     let [emailVisible, setEmailVisible] = useState(false);
@@ -32,16 +34,16 @@ export default function Posts() {
         <Layout>
             <h2 className={utilStyles.headingXl}>Now</h2>
             <div style={{ marginTop: "2rem", marginBottom: "1.2rem" }}>
-                <h3 className={utilStyles.headingMd}>Updated on 24 April 2022</h3>
+                <h3 className={utilStyles.headingMd}>Updated on 6 May 2022 <span className={utilStyles.update_disc}>✱</span></h3>
             </div>
             <ul className={utilStyles.list}>
                 <li className={utilStyles.listItem}>
                     🏡 living in Dharamkot, India
                 </li>
                 <li className={utilStyles.listItem}>📝 finished writing an <Link href="/pushing-against-reality/"><a target="_blank" rel="noopener">essay</a></Link> </li>
-                <li className={utilStyles.listItem}>🦀 learning rust, going through the rust book, worked on <Link href="https://github.com/mnpw/hashmap-rs"><a target="_blank" rel="noopener">hashmap-rs</a></Link> and working on <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">webserver-rs</a></Link>
+                <li className={utilStyles.listItem}>🦀 learning about the <Link href="https://rust-lang.github.io/async-book/index.html"><a target="_blank" rel="noopener">whats</a></Link>, <Link href="https://rust-lang.github.io/wg-async/vision.html"><a target="_blank" rel="noopener">whys</a></Link> and <Link href="https://www.ncameron.org/blog/what-is-an-async-runtime/"><a target="_blank" rel="noopener">hows</a></Link> of async rust, and hacking a <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">webserver</a></Link> <span className={utilStyles.update_disc}>✱</span>
                 </li>
-                <li className={utilStyles.listItem}>📖 got into reading, currently reading The Silent Patient</li>
+                <li className={utilStyles.listItem}>📖 reading Replay by Ken Grimwood, finished The Silent Patient <span className={utilStyles.update_disc}>✱</span></li>
                 <li className={utilStyles.listItem}>🔮 thinking about the role of compaction in long games, practicing crystallization</li>
                 <li className={utilStyles.listItem}><div>🧰 applying to jobs!&nbsp;
                     <Link href="https://twitter.com/messages/compose?recipient_id=3446109433&text=hey">

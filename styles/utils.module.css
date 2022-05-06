@@ -74,3 +74,8 @@
  	opacity: 0;
   }
 }
+
+.update_disc {
+    color: rgb(243, 115, 109);
+    prefix: ✻;
+}
