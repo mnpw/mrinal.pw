@@ -34,16 +34,16 @@ export default function Posts() {
         <Layout>
             <h2 className={utilStyles.headingXl}>Now</h2>
             <div style={{ marginTop: "2rem", marginBottom: "1.2rem" }}>
-                <h3 className={utilStyles.headingMd}>Updated on 16 May 2022 <span className={utilStyles.update_disc}>✱</span></h3>
+                <h3 className={utilStyles.headingMd}>Updated on 23 May 2022 <span className={utilStyles.update_disc}>✱</span></h3>
             </div>
             <ul className={utilStyles.list}>
                 <li className={utilStyles.listItem}>
-                    🏡 living in Dharamkot, India
+                    🏡 living in Delhi, India <span className={utilStyles.update_disc}>✱</span>
                 </li>
-                <li className={utilStyles.listItem}>📝 wrote first essay talking about programming! - <Link href="/a-rusty-winter/"><a target="_blank" rel="noopener">a rusty winter</a></Link> <span className={utilStyles.update_disc}>✱</span></li>
+                <li className={utilStyles.listItem}>📝 wrote a new essay! - <Link href="/engineering-process/"><a target="_blank" rel="noopener">engineering: the creative process</a></Link> <span className={utilStyles.update_disc}>✱</span></li>
                 <li className={utilStyles.listItem}>🦀 learning about the <Link href="https://rust-lang.github.io/async-book/index.html"><a target="_blank" rel="noopener">whats</a></Link>, <Link href="https://rust-lang.github.io/wg-async/vision.html"><a target="_blank" rel="noopener">whys</a></Link> and <Link href="https://www.ncameron.org/blog/what-is-an-async-runtime/"><a target="_blank" rel="noopener">hows</a></Link> of async rust, and hacking a <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">webserver</a></Link>
                 </li>
-                <li className={utilStyles.listItem}>📖 loving reading Replay by Ken Grimwood (~50% done so far) <span className={utilStyles.update_disc}>✱</span></li>
+                <li className={utilStyles.listItem}>📖 loving reading Replay by Ken Grimwood (~60% done so far) <span className={utilStyles.update_disc}>✱</span></li>
                 <li className={utilStyles.listItem}>🔮 thinking about the role of compaction in long games, practicing crystallization</li>
                 <li className={utilStyles.listItem}><div>🧰 applying to jobs!&nbsp;
                     <Link href="https://twitter.com/messages/compose?recipient_id=3446109433&text=hey">
