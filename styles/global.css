@@ -20,17 +20,17 @@ body {
 }
 
 code {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 p > code,
 li > code,
 dd > code,
 td > code {
-  background: #e3f5fd;
+  background: #edfaff;
   word-wrap: break-word;
   box-decoration-break: clone;
-  padding: .1rem .3rem .2rem;
+  padding: .05rem .3rem .1rem;
   border-radius: .2rem;
 }
 
