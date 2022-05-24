@@ -64,7 +64,7 @@ export default function Posts() {
                 A compass calibrated to the north of novelty is a bad compass. It is one of the uncomfortable truths I have come to realise. The way to the unknown waters is through charted routes. In simple words, it means starting with the "hello world" level of complexity and not trying to do everything. With some hacking I got a very <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">simple version</a></Link> of the web server up and running. Of course, the process was not as linear as I am making it sound here. It was an iterative mish-mosh of the parts mentioned above. And like all side projects, it is a work in progress.
             </p>
             <p>~</p>
-            <h3 className={utilStyles.headingLg}>II.</h3>
+            <h3 className={utilStyles.headingLg}>III.</h3>
             <p>
                 While working up on a <Link href="https://github.com/hyperium/hyper/pull/2837"><a target="_blank" rel="noopener">pull request</a></Link> for <code>hyper</code>, I picked <code>client::get()</code> as the entry point and started digging from there. It led me to <code>HttpConnector</code> and <code>PoolClient</code> types. That eventually led me to <code>HttpInfo</code>, the place where I wanted to be at to add the feature. For my web server project, I studied <code>mini-redis</code>'s server design. I went from <code>server::run()</code> to <code>Handler::run()</code> to <code>Connection::read_frame()</code>. I used the <code>read_frame</code> method as the basis for parsing raw data to http packets for my project.
             </p>
