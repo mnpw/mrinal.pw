@@ -18,9 +18,11 @@ export async function getStaticProps({ params }) {
     const fullPath = join(postsDirectory, `${params.slug}.md`)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
-    const content = await import('../../rust/pkg').then((module) => {
-        return module.parse_markdown_to_html(fileContents)
-    })
+    // const content = await import('../../rust/pkg').then((module) => {
+    //     return module.parse_markdown_to_html(fileContents)
+    // })
+
+    const content = "";
 
     return { props: { content } }
 }

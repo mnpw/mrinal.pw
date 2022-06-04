@@ -11,6 +11,9 @@ export default function Posts() {
             </div>
             <ul className={utilStyles.list}>
                 <li className={utilStyles.listItem}>
+                    <span className={utilStyles.labelText + " " + utilStyles.tag}>04 jun</span> <Link href="/replayed/" ><a>Replayed</a></Link>
+                </li>
+                <li className={utilStyles.listItem}>
                     <span className={utilStyles.labelText + " " + utilStyles.tag}>23 may</span> <Link href="/engineering-process/" ><a>Engineering: The creative process</a></Link>
                 </li>
                 <li className={utilStyles.listItem}>

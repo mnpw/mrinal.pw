@@ -3,9 +3,10 @@ const WasmPackPlugin = require('@wasm-tool/wasm-pack-plugin')
 
 module.exports = {
     webpack(config, { isServer }) {
+        config.output.publicPath = '/_next/';
 
         config.experiments = {
-            asyncWebAssembly: true,
+            syncWebAssembly: true,
         };
 
         config.plugins.push(
@@ -23,7 +24,13 @@ module.exports = {
             config.output.webassemblyModuleFilename = 'static/wasm/[modulehash].wasm'
         }
 
+        config.output.webassemblyModuleFilename = 'static/wasm/[modulehash].wasm'
 
-        return config;
+        config.module.rules.push({
+            test: /\.wasm$/,
+            type: 'webassembly/sync',
+        });
+
+        // return config;
     }
 }
