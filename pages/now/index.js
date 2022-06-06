@@ -34,16 +34,17 @@ export default function Posts() {
         <Layout>
             <h2 className={utilStyles.headingXl}>Now</h2>
             <div style={{ marginTop: "2rem", marginBottom: "1.2rem" }}>
-                <h3 className={utilStyles.headingMd}>Updated on 23 May 2022 <span className={utilStyles.update_disc}>✱</span></h3>
+                <h3 className={utilStyles.headingMd}>Updated on 6 June 2022 <span className={utilStyles.update_disc}>✱</span></h3>
             </div>
             <ul className={utilStyles.list}>
                 <li className={utilStyles.listItem}>
-                    🏡 living in Delhi, India <span className={utilStyles.update_disc}>✱</span>
+                    🏡 living in Delhi, India
                 </li>
-                <li className={utilStyles.listItem}>📝 wrote a new essay! - <Link href="/engineering-process/"><a target="_blank" rel="noopener">engineering: the creative process</a></Link> <span className={utilStyles.update_disc}>✱</span></li>
-                <li className={utilStyles.listItem}>🦀 learning about the <Link href="https://rust-lang.github.io/async-book/index.html"><a target="_blank" rel="noopener">whats</a></Link>, <Link href="https://rust-lang.github.io/wg-async/vision.html"><a target="_blank" rel="noopener">whys</a></Link> and <Link href="https://www.ncameron.org/blog/what-is-an-async-runtime/"><a target="_blank" rel="noopener">hows</a></Link> of async rust, and hacking a <Link href="https://github.com/mnpw/webserver-rs"><a target="_blank" rel="noopener">webserver</a></Link>
+                <li className={utilStyles.listItem}>🏃🏻‍♂️ completed running 100km so far this year <span className={utilStyles.update_disc}>✱</span></li>
+                <li className={utilStyles.listItem}>📝 wrote a new essay! - <Link href="/engineering-process/"><a target="_blank" rel="noopener">engineering: the creative process</a></Link></li>
+                <li className={utilStyles.listItem}>🦀 performing surgery on crabs (read: <Link href="http://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/"><a target="_blank" rel="noopener">learning</a></Link> about the history and the future of rust's borrow checker)
                 </li>
-                <li className={utilStyles.listItem}>📖 loving reading Replay by Ken Grimwood (~60% done so far) <span className={utilStyles.update_disc}>✱</span></li>
+                <li className={utilStyles.listItem}>📖 finished reading Replay by Ken Grimwood. my thoughts <Link href="/replayed/"><a target="_blank" rel="noopener">here</a></Link> <span className={utilStyles.update_disc}>✱</span></li>
                 <li className={utilStyles.listItem}>🔮 thinking about the role of compaction in long games, practicing crystallization</li>
                 <li className={utilStyles.listItem}><div>🧰 applying to jobs!&nbsp;
                     <Link href="https://twitter.com/messages/compose?recipient_id=3446109433&text=hey">
@@ -65,7 +66,6 @@ export default function Posts() {
                     }
                     me if you think we should work together</div>
                 </li>
-                <li className={utilStyles.listItem}>🧗 preparing my body for the impending war (read: for trekking mountains)</li>
                 <li className={utilStyles.listItem}>
                     💛 some important things i recently consumed:
                     <ul>
@@ -73,13 +73,13 @@ export default function Posts() {
                             📺 <Link href="https://www.youtube.com/watch?v=i2FPU7bKD9k"><a target="_blank" rel="noopener">video</a></Link>: When we build - Wilson Miner
                         </li>
                         <li >
-                            📻 <Link href="https://open.spotify.com/episode/0d7nNkR9GK9PkjoFL48fl4"><a target="_blank" rel="noopener">podcast</a></Link>: Watering the Dead and the Unseen – Sumana Roy
+                            📻 <Link href="https://open.spotify.com/episode/7aocExFm5uQxxF7YxFhP5X"><a target="_blank" rel="noopener">podcast</a></Link>: Tyler and Daniel Gross Talk Talent <span className={utilStyles.update_disc}>✱</span>
                         </li>
                         <li >
                             📜 <Link href="https://www.benkuhn.net/outliers/"><a target="_blank" rel="noopener">essay</a></Link>: Searching for outliers - Ben Kuhn
                         </li>
                         <li >
-                            🎶 <Link href="https://open.spotify.com/track/4HK3N5xqVguP5Sk583EazM"><a target="_blank" rel="noopener">music</a></Link>: Grieg: Peer Gynt (Death Of Aase) - Solomon Grey's Paradise Lost Rework
+                            🎶 <Link href="https://open.spotify.com/track/6Rkp6fEsvOTR7YxsW5uNyR"><a target="_blank" rel="noopener">music</a></Link>: My Friend the Forest - Nils Frahm <span className={utilStyles.update_disc}>✱</span>
                         </li>
                     </ul>
                 </li>
