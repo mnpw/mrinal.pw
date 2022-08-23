@@ -40,8 +40,8 @@ export default function Posts() {
     }
 
     return (
-        <Layout nonBlog>
-            <blockquote style={{ background: 'rgba(243, 243, 243, 0.54)', color: '#202020' }}>
+        <Layout>
+            {/* <blockquote style={{ background: 'rgba(243, 243, 243, 0.54)', color: '#202020' }}> */}
 
                 <h2 className={utilStyles.headingXl}>Now</h2>
                 <div style={{ marginTop: "2rem", marginBottom: "1.2rem" }}>
@@ -95,18 +95,18 @@ export default function Posts() {
                         </ul>
                     </li>
                 </ul>
-            </blockquote>
-            <div className={utilStyles.canvas}>
+            {/* </blockquote> */}
+            {/* <div className={utilStyles.canvas}>
                 <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0.5, 10], fov: 2 }}>
                     <Suspense fallback={null}>
                         <Flower {...props} />
-                        {/* <Bg {...props} /> */}
+                        <Bg {...props} />
                         <OrbitControls />
                         <directionalLight intensity={2} castShadow shadow-mapSize-height={1024} shadow-mapSize-width={1024} />
                         <ambientLight intensity={0.4} />
                     </Suspense>
                 </Canvas>
-            </div>
+            </div> */}
         </Layout >
     )
 }

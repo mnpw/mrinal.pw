@@ -4,14 +4,17 @@ import utilStyles from '../../styles/utils.module.css'
 
 export default function Posts() {
     return (
-        <Layout nonBlog={true}>
-            <blockquote style={{ background: 'rgba(243, 243, 243, 0.54)', color: '#202020' }}>
+        <Layout>
+            {/* <blockquote style={{ background: 'rgba(243, 243, 243, 0.54)', color: '#202020' }}> */}
 
                 <h2 className={utilStyles.headingXl}>Notes</h2>
                 <div style={{ marginTop: "2rem", marginBottom: "1.2rem" }}>
                     <h3 className={utilStyles.headingMd}>2022</h3>
                 </div>
                 <ul className={utilStyles.list}>
+                    <li className={utilStyles.listItem}>
+                        <span className={utilStyles.labelText + " " + utilStyles.tag}>23 aug</span> <Link href="/containers-not-docker/" ><a>Containers, not Docker</a></Link>
+                    </li>
                     <li className={utilStyles.listItem}>
                         <span className={utilStyles.labelText + " " + utilStyles.tag}>04 jun</span> <Link href="/replayed/" ><a>Replayed</a></Link>
                     </li>
@@ -34,7 +37,7 @@ export default function Posts() {
                         <span className={utilStyles.labelText + " " + utilStyles.tag}>31 jan</span> <Link href="/mothers-arguments-internet/" ><a>Mothers, arguments, and the internet</a></Link>
                     </li>
                 </ul>
-            </blockquote>
+            {/* </blockquote> */}
         </Layout >
     )
 }
