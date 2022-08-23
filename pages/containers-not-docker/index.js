@@ -1,38 +1,44 @@
 import Layout from "../../components/layout";
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
+import { useMediaQuery } from 'react-responsive'
 
 export default function Posts() {
 
-    let code = `
-                       +------------------+----------------+
-                       |                  |                |
-                       |      Docker      |     Podman     |
-                       |                  |                |
-                       |                  |                |
-                       |    +--------+    |   +--------+   |
-               Client  |    | Docker |    |   |        |   |
-                       |    +---+----+    |   |        |   |
-                       |        |         |   |        |   |
-                       |    +---v-----+   |   |        |   |
-               Engine  |    | Dockerd |   |   | Podman |   |
-                       |    +---+-----+   |   |        |   |
-                       |        |         |   |        |   |
-                       |  +-----v------+  |   |        |   |
- Runtime (High Level)  |  | Containerd |  |   |        |   |
-                       |  +-----+------+  |   +---+----+   |
-                       |        |         |       |        |
-                       |     +--v---+     |    +--v---+    |
- Runtime (Low Level)   |     | runc |     |    | runc |    |
-                       |     +--+---+     |    +--+---+    |
-                       |        |         |       |        |
-                       |     +--v----+    |    +--v----+   |
-               Kernel  |     | Linux |    |    | Linux |   |
-                       |     +-------+    |    +-------+   |
-                       |                  |                |
-                       +------------------+----------------+
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-width: 1200px)'
+    });
+
+    let code_fallback = `
+    +------------------------+------------------+----------------+
+    |                        |                  |                |
+    |                        |      Docker      |     Podman     |
+    |                        |                  |                |
+    +------------------------+------------------+----------------+
+    |                        |                  |                |
+    |                        |    +--------+    |   +--------+   |
+    |                Client  |    | Docker |    |   |        |   |
+    |                        |    +---+----+    |   |        |   |
+    |                        |        |         |   |        |   |
+    |                        |    +---v-----+   |   |        |   |
+    |                Engine  |    | Dockerd |   |   | Podman |   |
+    |                        |    +---+-----+   |   |        |   |
+    |                        |        |         |   |        |   |
+    |                        |  +-----v------+  |   |        |   |
+    |  Runtime (High Level)  |  | Containerd |  |   |        |   |
+    |                        |  +-----+------+  |   +---+----+   |
+    |                        |        |         |       |        |
+    |                        |     +--v---+     |    +--v---+    |
+    |   Runtime (Low Level)  |     | runc |     |    | runc |    |
+    |                        |     +--+---+     |    +--+---+    |
+    |                        |        |         |       |        |
+    |                        |     +--v----+    |    +--v----+   |
+    |                Kernel  |     | Linux |    |    | Linux |   |
+    |                        |     +-------+    |    +-------+   |
+    |                        |                  |                |
+    +------------------------+------------------+----------------+    
     `
-    code = `
+    let code = `
     ┌────────────────────────┬──────────────────┬────────────────┐
     │                        │                  │                │
     │                        │      Docker      │     Podman     │
@@ -126,7 +132,7 @@ export default function Posts() {
                 I come out of a rabbit hole of containers, VMs, and OCI standards knowing a little more than before and I update my mental models:
             </p>
             <pre>
-                <code>{code}</code>
+                <code>{isDesktopOrLaptop ? code : code_fallback}</code>
             </pre>
             <p>
                 Moral of the story? Docker is just a tool for containerization. When on macOS use Podman.
