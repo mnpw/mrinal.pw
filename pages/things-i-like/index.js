@@ -6,7 +6,8 @@ export default function Posts() {
     return (
         <Layout>
             <h2 className={utilStyles.headingXl}>Things I like</h2>
-            <ul className={utilStyles.list} style={{ marginTop: "2rem" }}>
+            <p style={{ marginTop: "2rem" }}>In no particular order,</p>
+            <ul className={utilStyles.list} style={{ marginTop: "1.5rem" }}>
                 <li className={utilStyles.listItem}>• learning a new concept that gently kneads my brain</li>
                 <li className={utilStyles.listItem}>• sipping coffee in a moment of pause with no rush</li>
                 <li className={utilStyles.listItem}>• techno music, with an extra shot of melody, in a dim space</li>
