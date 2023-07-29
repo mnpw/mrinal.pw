@@ -41,7 +41,6 @@ td > code {
 }
 
 pre code {
-  font-family: 'Fira Code', monospace;  
   display: block;
   background:none;
   white-space: pre;
