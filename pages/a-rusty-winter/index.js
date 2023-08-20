@@ -8,13 +8,16 @@ export default function Posts() {
             <h2 className={utilStyles.headingXl}>A rusty winter</h2>
             <h3 className={utilStyles.headingLg}>I.</h3>
             <p>
-                I came across Mr. <Link href="https://twitter.com/ericwastl?lang=en"><a target="_blank" rel="noopener">Wastl</a></Link> and his shenanigans during a cold winter in an ancient time. His handmade programming puzzles caught my attention. He called the challenge Advent of Code. The project seemed like the cool cousin of Project Euler to me. For the uninitiated, Advent of Code (AoC) is an advent calendar where a new programming puzzle unlocks everyday from December 1 to December 25 every year.
+                I came across Mr. <Link
+                href="https://twitter.com/ericwastl?lang=en"
+                target="_blank"
+                rel="noopener">Wastl</Link> and his shenanigans during a cold winter in an ancient time. His handmade programming puzzles caught my attention. He called the challenge Advent of Code. The project seemed like the cool cousin of Project Euler to me. For the uninitiated, Advent of Code (AoC) is an advent calendar where a new programming puzzle unlocks everyday from December 1 to December 25 every year.
             </p>
             <p>
-                My interest in gophers peaked around the same time (perhaps it was <Link href="https://github.com/mnpw/AoC-19"><a target="_blank" rel="noopener">2019</a></Link>?). Naturally, as one must do, I learned enough <Link href="https://go.dev/"><a target="_blank" rel="noopener">Go</a></Link> to make a decent attempt at the <Link href="https://adventofcode.com/"><a target="_blank" rel="noopener">Advent of Code</a></Link> puzzles that winter. I had a fun time, but Go and I slowly drifted apart after our first date at the AoC arcade. Two years later it was time for me to go on another date — with a crab.
+                My interest in gophers peaked around the same time (perhaps it was <Link href="https://github.com/mnpw/AoC-19" target="_blank" rel="noopener">2019</Link>?). Naturally, as one must do, I learned enough <Link href="https://go.dev/" target="_blank" rel="noopener">Go</Link> to make a decent attempt at the <Link href="https://adventofcode.com/" target="_blank" rel="noopener">Advent of Code</Link> puzzles that winter. I had a fun time, but Go and I slowly drifted apart after our first date at the AoC arcade. Two years later it was time for me to go on another date — with a crab.
             </p>
             <p>
-                With fewer hair on my head and more free time on my hand, I decided to make a serious attempt at the 2021 edition of AoC. My goal this time was to focus on clarity and readability instead of cleverness. I saw the appeal of the way each puzzle was structured with AoC. Having two parts in each problem forces you to think of simplicity and extensibility of your solutions. This would be a great way to learn the language of the crabs, I thought. It was time to write the solutions in <Link href="https://www.rust-lang.org/"><a target="_blank" rel="noopener">Rust</a></Link>.
+                With fewer hair on my head and more free time on my hand, I decided to make a serious attempt at the 2021 edition of AoC. My goal this time was to focus on clarity and readability instead of cleverness. I saw the appeal of the way each puzzle was structured with AoC. Having two parts in each problem forces you to think of simplicity and extensibility of your solutions. This would be a great way to learn the language of the crabs, I thought. It was time to write the solutions in <Link href="https://www.rust-lang.org/" target="_blank" rel="noopener">Rust</Link>.
             </p>
             <p>
                 I maintained a diary of sorts as I went about collecting stars for every puzzle I solved this time. The world has space for one more person wanting to talk about their sorrows and joys of coding. Grab some popcorn. I'm open sourcing the dearest diary for your reading pleasure now.
@@ -30,7 +33,10 @@ export default function Posts() {
             <p>March 2, Puzzle 7</p>
             <blockquote>
                 <p>
-                    I came across a fun fact through this problem. It was a humbling refresher of college level mathematics. The first solution I thought of was a million miles away from the correct solution. Only after processing the stupidity of my first solution could I see the beauty of the correct one. The <Link href="https://math.stackexchange.com/questions/318381/on-a-1-d-line-the-point-that-minimizes-the-sum-of-the-distances-is-the-median"><a target="_blank" rel="noopener">proof</a></Link> hurts my brain, but gosh it is so beautiful to look at.
+                    I came across a fun fact through this problem. It was a humbling refresher of college level mathematics. The first solution I thought of was a million miles away from the correct solution. Only after processing the stupidity of my first solution could I see the beauty of the correct one. The <Link
+                    href="https://math.stackexchange.com/questions/318381/on-a-1-d-line-the-point-that-minimizes-the-sum-of-the-distances-is-the-median"
+                    target="_blank"
+                    rel="noopener">proof</Link> hurts my brain, but gosh it is so beautiful to look at.
                 </p>
             </blockquote>
             <p>March 9, Problem 8</p>
@@ -43,7 +49,10 @@ export default function Posts() {
             <blockquote>
                 <p>
                     How do I even debug Rust code? I thought you can only write correct code with Rust. That it was impossible to write incorrect code with Rust. That is why I picked it. Heck is this? Guess the crabs don't protect you from logical errors.
-                    It took a long time to figure out the bug in my flood fill flavored algorithm. I could only figure out the problem by adding some <Link href="https://stackoverflow.com/a/69982036/12764266"><a target="_blank" rel="noopener">color</a></Link> to the huge grid I was trying to print to the standard output. TIL: Even 24 inch is not big enough (in monitor size; to fit in a 100 x 100 grid of three digit numbers).
+                    It took a long time to figure out the bug in my flood fill flavored algorithm. I could only figure out the problem by adding some <Link
+                    href="https://stackoverflow.com/a/69982036/12764266"
+                    target="_blank"
+                    rel="noopener">color</Link> to the huge grid I was trying to print to the standard output. TIL: Even 24 inch is not big enough (in monitor size; to fit in a 100 x 100 grid of three digit numbers).
                 </p>
             </blockquote>
             <p>March 18, Problem 12</p>
@@ -67,19 +76,34 @@ export default function Posts() {
             <p>March 25, Problem 15</p>
             <blockquote>
                 <p>
-                    I had completely forgotten about the shortest path algorithm. Not surprising. Thankfully, while looking for the implementation of Dijkstra's algorithm, I stumbled upon the gem that <Link href="https://rosettacode.org/wiki/Rosetta_Code"><a target="_blank" rel="noopener">Rosetta Code</a></Link> is. Running the code after implementing a janky version of the shortest path algorithm gave a peek of the shit storm that was about to hit me. Turns out binary heap <Link href="https://doc.rust-lang.org/stable/src/alloc/collections/binary_heap.rs.html#162"><a target="_blank" rel="noopener">does not allow</a></Link> for priority updation. And I want priority updation. It brings me cosmic shame to say that I gave up and used an external crate that implements a <Link href="https://github.com/garro95/priority-queue"><a target="_blank" rel="noopener">priority queue</a></Link>. What would I have done? Implemented a priority queue myself? With my own hands? No way. Forgetting the shortest path algorithm and then using an external crate? Shameful. But hey, the code works.
+                    I had completely forgotten about the shortest path algorithm. Not surprising. Thankfully, while looking for the implementation of Dijkstra's algorithm, I stumbled upon the gem that <Link
+                    href="https://rosettacode.org/wiki/Rosetta_Code"
+                    target="_blank"
+                    rel="noopener">Rosetta Code</Link> is. Running the code after implementing a janky version of the shortest path algorithm gave a peek of the shit storm that was about to hit me. Turns out binary heap <Link
+                    href="https://doc.rust-lang.org/stable/src/alloc/collections/binary_heap.rs.html#162"
+                    target="_blank"
+                    rel="noopener">does not allow</Link> for priority updation. And I want priority updation. It brings me cosmic shame to say that I gave up and used an external crate that implements a <Link
+                    href="https://github.com/garro95/priority-queue"
+                    target="_blank"
+                    rel="noopener">priority queue</Link>. What would I have done? Implemented a priority queue myself? With my own hands? No way. Forgetting the shortest path algorithm and then using an external crate? Shameful. But hey, the code works.
                 </p>
             </blockquote>
             <p>March 26, Problem 16</p>
             <blockquote>
                 <p>
-                    It?? worked?? THE MESSAGE PARSING WORKED AT THE FIRST GO??? My joy knows no bounds. Got to know that you cannot add custom methods on fundamental types (<code>"some_string".my_cool_custom_function()</code> does not work) but this lack is evened by the fact that a <Link href="https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.reduce"><a target="_blank" rel="noopener">reduce</a></Link> implementation exists.
+                    It?? worked?? THE MESSAGE PARSING WORKED AT THE FIRST GO??? My joy knows no bounds. Got to know that you cannot add custom methods on fundamental types (<code>"some_string".my_cool_custom_function()</code> does not work) but this lack is evened by the fact that a <Link
+                    href="https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.reduce"
+                    target="_blank"
+                    rel="noopener">reduce</Link> implementation exists.
                 </p>
             </blockquote>
             <p>March 29, Problem 17</p>
             <blockquote>
                 <p>
-                    Ffs do I have to review physics now? Why does this puzzle have projectiles? Turns out the Part 1 to this puzzle is simpler than I had earlier thought. I can remove the horizontal movement to solve Part 1. The second part is just a clever brute force (which I am very proud to figure out) with some basic bound checks. Only if <Link href="https://doc.rust-lang.org/std/ops/struct.RangeInclusive.html"><a target="_blank" rel="noopener">RangeInclusive</a></Link> played nicely.
+                    Ffs do I have to review physics now? Why does this puzzle have projectiles? Turns out the Part 1 to this puzzle is simpler than I had earlier thought. I can remove the horizontal movement to solve Part 1. The second part is just a clever brute force (which I am very proud to figure out) with some basic bound checks. Only if <Link
+                    href="https://doc.rust-lang.org/std/ops/struct.RangeInclusive.html"
+                    target="_blank"
+                    rel="noopener">RangeInclusive</Link> played nicely.
                 </p>
             </blockquote>
             <p>March 30, Problem 18</p>
@@ -104,5 +128,5 @@ export default function Posts() {
             </p>
             <p>~</p>
         </Layout>
-    )
+    );
 }

@@ -61,7 +61,7 @@ export default function Layout({ children, home, nonBlog }) {
                 </Canvas>
             </div>)}
             <header className={styles.header}>
-                <Link href="/">
+                <Link href="/" legacyBehavior>
                     {/* onMouseOver={() => changeLogo(logo2)} onMouseOut={() => changeLogo(logo1)} */}
                     <div className={styles.logo}>
                         <span className={styles.logo_hover}>
@@ -73,21 +73,21 @@ export default function Layout({ children, home, nonBlog }) {
                     </div>
                 </Link>
                 <span>
-                    <Link href="/now/" ><a className={styles.navbar}>Now</a></Link>
+                    <Link href="/now/" className={styles.navbar}>Now</Link>
                     <span className={styles.disc}> •</span>
-                    <Link href="/notes/" ><a className={styles.navbar}>Notes</a></Link>
+                    <Link href="/notes/" className={styles.navbar}>Notes</Link>
                     <span className={styles.disc}> •</span>
-                    <Link href="https://www.twitter.com/_mnpw"><a className={styles.navbar}>Twitter</a></Link>
+                    <Link href="https://www.twitter.com/_mnpw" className={styles.navbar}>Twitter</Link>
                 </span>
             </header>
             <main>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>
                     <Link href="/">
-                        <a>← Back to home</a>
+                        ← Back to home
                     </Link>
                 </div>
             )}
         </div>
-    )
+    );
 }

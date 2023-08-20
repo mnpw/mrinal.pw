@@ -105,13 +105,16 @@ export default function Posts() {
                 Now I type <code>sudo service start docker</code> and press enter. Error? Why? Ughhh.
             </p>
             <p>
-                I take a step back to see what's going on. I want to start Docker. Docker has two parts: docker-client and docker-daemon. Client talks to daemon, so daemon should be running when client is being used. On Linux, <code>sudo service start docker</code> did the job of running the docker-daemon. <em>service</em> is a Linux specific tool (see <Link href="https://askubuntu.com/a/903405"><a target="_blank" rel="noopener">this</a></Link>) that makes managing <em>dockerd</em> (the docker-daemon) convenient.
+                I take a step back to see what's going on. I want to start Docker. Docker has two parts: docker-client and docker-daemon. Client talks to daemon, so daemon should be running when client is being used. On Linux, <code>sudo service start docker</code> did the job of running the docker-daemon. <em>service</em> is a Linux specific tool (see <Link href="https://askubuntu.com/a/903405" target="_blank" rel="noopener">this</Link>) that makes managing <em>dockerd</em> (the docker-daemon) convenient.
             </p>
 
 
             <h3 className={utilStyles.headingMd}>looking for friendly daemons 👹</h3>
             <p>
-                Turns out <em>service</em> and <em>dockerd</em> <Link href="https://stackoverflow.com/a/49719638/12764266"><a target="_blank" rel="noopener">don't exist for macOS</a></Link> like they do for Linux. So does it mean that I cannot run docker on macOS? Great. Back to step 0.
+                Turns out <em>service</em> and <em>dockerd</em> <Link
+                href="https://stackoverflow.com/a/49719638/12764266"
+                target="_blank"
+                rel="noopener">don't exist for macOS</Link> like they do for Linux. So does it mean that I cannot run docker on macOS? Great. Back to step 0.
             </p>
             <p>
                 When I search 'install docker macOS' the first result tells me to install Docker Desktop. Docker Desktop is a way to get <em>dockerd</em> running on a non-linux OS. But I will not let SEOed search results govern me so I decide against using it.
@@ -147,16 +150,25 @@ export default function Posts() {
             <p>
                 <ul className={utilStyles.list}>
                     <li>
-                        - <Link href="https://fly.io/blog/docker-without-docker/"><a target="_blank" rel="noopener">Docker Without Docker</a></Link>
+                        - <Link
+                        href="https://fly.io/blog/docker-without-docker/"
+                        target="_blank"
+                        rel="noopener">Docker Without Docker</Link>
                     </li>
                     <li>
-                        - <Link href="https://mergeboard.com/blog/2-qemu-microvm-docker/"><a target="_blank" rel="noopener">Execute Docker Containers as QEMU MicroVMs</a></Link>
+                        - <Link
+                        href="https://mergeboard.com/blog/2-qemu-microvm-docker/"
+                        target="_blank"
+                        rel="noopener">Execute Docker Containers as QEMU MicroVMs</Link>
                     </li>
                     <li>
-                        - <Link href="https://mkdev.me/posts/the-tool-that-really-runs-your-containers-deep-dive-into-runc-and-oci-specifications"><a target="_blank" rel="noopener">The tool that really runs your containers: deep dive into runc and OCI specifications</a></Link>
+                        - <Link
+                        href="https://mkdev.me/posts/the-tool-that-really-runs-your-containers-deep-dive-into-runc-and-oci-specifications"
+                        target="_blank"
+                        rel="noopener">The tool that really runs your containers: deep dive into runc and OCI specifications</Link>
                     </li>
                 </ul>
             </p>
         </Layout>
-    )
+    );
 }
