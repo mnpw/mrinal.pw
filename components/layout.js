@@ -61,17 +61,19 @@ export default function Layout({ children, home, nonBlog }) {
                 </Canvas>
             </div>)}
             <header className={styles.header}>
+
                 <Link href="/" legacyBehavior>
                     {/* onMouseOver={() => changeLogo(logo2)} onMouseOut={() => changeLogo(logo1)} */}
-                    <div className={styles.logo}>
+                    <span className={styles.logo}>
                         <span className={styles.logo_hover}>
                             <Image src={logo2.src} height={logo2.height} width={logo2.width} />
                         </span>
                         <span className={styles.logo_base}>
-                            <Image className={styles.logo_base} src={logo1.src} height={logo1.height} width={logo1.width} />
+                            <Image src={logo1.src} height={logo1.height} width={logo1.width} />
                         </span>
-                    </div>
+                    </span>
                 </Link>
+
                 <span>
                     <Link href="/now/" className={styles.navbar}>Now</Link>
                     <span className={styles.disc}> •</span>
@@ -81,13 +83,15 @@ export default function Layout({ children, home, nonBlog }) {
                 </span>
             </header>
             <main>{children}</main>
-            {!home && (
-                <div className={styles.backToHome}>
-                    <Link href="/">
-                        ← Back to home
-                    </Link>
-                </div>
-            )}
-        </div>
+            {
+                !home && (
+                    <div className={styles.backToHome}>
+                        <Link href="/">
+                            ← Back to home
+                        </Link>
+                    </div>
+                )
+            }
+        </div >
     );
 }

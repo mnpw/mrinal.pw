@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .backToHome {
@@ -33,7 +34,9 @@
 }
 
 .logo {
-    position: relative;
+    left: 0;
+    top: 0;
+    /* position: relative; */
 }
 
 .logo_hover {
@@ -45,6 +48,7 @@
 .logo_base {
     opacity: 100%;
     left: 0;
+    top: 0;
     position: absolute;
 }
 
