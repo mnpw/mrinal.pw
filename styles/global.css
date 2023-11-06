@@ -29,10 +29,10 @@ code {
   font-size: 15px;
 }
 
-p > code,
-li > code,
-dd > code,
-td > code {
+p>code,
+li>code,
+dd>code,
+td>code {
   background: #edfaff;
   word-wrap: break-word;
   box-decoration-break: clone;
@@ -40,9 +40,20 @@ td > code {
   border-radius: .2rem;
 }
 
+h2>code {
+  background: #edfaff;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .05rem .3rem .1rem;
+  border-radius: .2rem;
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
 pre code {
   display: block;
-  background:none;
+  background: none;
   white-space: pre;
   -webkit-overflow-scrolling: touch;
   overflow-x: scroll;
@@ -64,7 +75,7 @@ a {
 ul ul {
   position: relative;
   margin: 0;
-  padding-left: 1.75rem; 
+  padding-left: 1.75rem;
 }
 
 ul ul li {

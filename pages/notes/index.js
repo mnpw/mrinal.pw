@@ -13,6 +13,9 @@ export default function Posts() {
             </div>
             <ul className={utilStyles.list}>
                 <li className={utilStyles.listItem}>
+                    <span className={utilStyles.labelText + " " + utilStyles.tag}>06 nov</span> <Link href="/rust-sized-trait/" >What is Sized trait?</Link>
+                </li>
+                <li className={utilStyles.listItem}>
                     <span className={utilStyles.labelText + " " + utilStyles.tag}>20 aug</span> <Link href="/curse-of-ambition/" >The curse of ambition</Link>
                 </li>
                 <li className={utilStyles.listItem}>
