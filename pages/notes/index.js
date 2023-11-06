@@ -5,8 +5,6 @@ import utilStyles from '../../styles/utils.module.css'
 export default function Posts() {
     return (
         <Layout>
-            {/* <blockquote style={{ background: 'rgba(243, 243, 243, 0.54)', color: '#202020' }}> */}
-
             <h2 className={utilStyles.headingXl}>Notes</h2>
             <div style={{ marginTop: "2rem", marginBottom: "1.2rem" }}>
                 <h3 className={utilStyles.headingMd}>2023</h3>
@@ -51,7 +49,7 @@ export default function Posts() {
                     <span className={utilStyles.labelText + " " + utilStyles.tag}>31 jan</span> <Link href="/mothers-arguments-internet/" >Mothers, arguments, and the internet</Link>
                 </li>
             </ul>
-            {/* </blockquote> */}
+
         </Layout >
     );
 }
