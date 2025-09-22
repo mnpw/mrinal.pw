@@ -1,0 +1,26 @@
+.imageContainer {
+    margin: 1.75rem 0;
+    width: 100%;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: contain;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.caption {
+    margin-top: 0.7rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+}

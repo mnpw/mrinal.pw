@@ -5,6 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
 import logo_2 from "../public/website_logo.svg";
 import logo_1 from "../public/dp.png";
+import dpImg from "../public/dp_new.svg";
 
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -67,7 +68,7 @@ export default function Layout({ children, home, nonBlog }) {
               <Image src={logo_2} height={34} width={80} alt="mnpw logo" />
             </span>
             <span className={styles.logo_base}>
-              <Image src={logo_1} height={34} width={34} alt="mnpw avatar" />
+              <Image src={dpImg} height={42} width={42} alt="mnpw avatar" />
             </span>
           </span>
         </Link>

@@ -1,4 +1,17 @@
 module.exports = {
     reactStrictMode: true,
-    concurrentFeatures: true,
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'i.pinimg.com',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: '**.pinimg.com',
+                pathname: '/**',
+            },
+        ],
+    },
 };

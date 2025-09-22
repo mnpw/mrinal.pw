@@ -1,5 +1,6 @@
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
+import EssayImage from "../../components/EssayImage";
 
 export default function Posts() {
   return (
@@ -21,13 +22,17 @@ export default function Posts() {
         been fuzzy so far and has rendered the concept of a 'right' decision
         useless.
       </p>
+      <EssayImage
+        src="https://i.pinimg.com/1200x/d1/fe/ee/d1feee3ceada8f930cd845b07ffaf2a9.jpg"
+        caption="Do not trust your brain – Ghost in the Shell"
+      />
       <p>
         I have a theory: Decisions come from the decision models and decision
         models are stored in the gut. Gut gives you a decision model when
         presented with a view of reality. Think of decision model like a
         probability function. The models are segmented into two categories based
         on 'precision' and 'velocity'. Some decision models prioritise
-        'precision' - accuracy of an assessment, and other prioritise 'velocity'
+        'precision' – accuracy of an assessment, and other prioritise 'velocity'
         – quickness of an assessment. When tasked with the responsibility of
         taking a decision, the gut takes lossy view of reality and picks a
         decision model with suitable attributes.

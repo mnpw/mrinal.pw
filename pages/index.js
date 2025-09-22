@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
+import EssayImage from "../components/EssayImage";
+import heroImg from "../public/soft.jpeg";
 
 export default function Home() {
   return (
@@ -7,6 +9,7 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <EssayImage src={heroImg} />
       <blockquote
         style={{ background: "rgba(243, 243, 243, 0.54)", color: "#202020" }}
       >
