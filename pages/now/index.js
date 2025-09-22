@@ -4,25 +4,8 @@ import utilStyles from "../../styles/utils.module.css";
 import { useState } from "react";
 import Clipboard from "react-clipboard.js";
 import styles from "../../components/layout.module.css";
-import Flower from "../../components/Flower";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import * as THREE from "three";
-import { Suspense } from "react";
-
-import {
-  DebugLayerMaterial,
-  LayerMaterial,
-  Depth,
-  Color,
-  Fresnel,
-  Noise,
-  Normal,
-} from "lamina";
 
 export default function Posts() {
-  const props = { base: "#ff4eb8", colorA: "#00ffff", colorB: "#ff00e3" };
-
   let [emailVisible, setEmailVisible] = useState(false);
   let [copyState, setCopyState] = useState(false);
   let [timeOutId, setTimeOutId] = useState(0);
