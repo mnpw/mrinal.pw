@@ -9,25 +9,19 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <EssayImage src={heroImg} />
+      <EssayImage src={heroImg} height="50px" />
       <blockquote
         style={{ background: "rgba(243, 243, 243, 0.54)", color: "#202020" }}
       >
         {/* <div className="body" style={{ background: 'rgba(255, 255, 255, 0.65)' }}> */}
-        <p>Welcome to my digital garden. Feel free to look around.</p>
         <p>
-          I sow the seeds of my explorations here. My passions overwhelm my
-          capabilities. This place is an attempt to understand them better.
+          Welcome to my digital garden. I take the help of different mediums to
+          tell different kinds of stories and I sow the seeds of my explorations
+          here. Thanks for stopping by, and please feel free to look around.
         </p>
         <p>
-          A synthesist, a computer programmer, perhaps a designer, some kind of
-          a craftsman? I consider myself many things. I take the help of
-          different mediums to tell different kinds of stories.
-        </p>
-        <p>Thanks for stopping by.</p>
-        <p>
-          <em>Attunig to the subtleties of storytelling,</em> <br></br>
-          Mrinal.
+          Mrinal – writer, computer programmer, part-time designer, over-time
+          overthinker, and athlete
         </p>
         {/* </div> */}
       </blockquote>
